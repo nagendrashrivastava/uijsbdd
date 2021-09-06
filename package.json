@@ -1,0 +1,26 @@
+{
+  "name": "pixelmatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.1.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "mochawesome": "^6.2.2"
+  },
+  "devDependencies": {},
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "mocha": "^7.1.1",
+    "mochawesome": "^6.1.0",
+    "mochawesome-merge": "^4.0.3",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "scripts": {
+    "test1": "echo \"Error: no test specified\" && exit 1",
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

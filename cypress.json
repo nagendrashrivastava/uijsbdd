@@ -1,0 +1,13 @@
+{
+    "baseUrl": "https://www.leaseplan.com/en-be/business/showroom/",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout":10000,
+    "testFiles": "**/*.feature",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "functionalTestReport",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}

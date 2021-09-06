@@ -1,0 +1,15 @@
+{
+  "showroomPage": {
+    "filterDropdown": "[data-key='OnPageFilter']",
+    "filterInput": "[data-component='OnPageFilterBody'] input[data-e2e-text-input-input]",
+    "filterResult": "[data-e2e-checkbox-label-text] a",
+    "deleteFilter": "[data-component='ClearFilterButton']",
+    "cardHeading": "[data-component='VehicleDescription'] h2",
+    "bestDealBanner": "[data-component='VehicleCard'] a>div span[color='midOrange']",
+    "popularFilters": "[data-key='popularFilters']",
+    "quickFilters": "a[data-component='QuickFilterLink']",
+    "moreFilterDropdown": "[data-key='features.showroom.filters.moreFilters']"
+  }
+  
+
+}
