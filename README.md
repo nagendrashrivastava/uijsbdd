@@ -1,4 +1,4 @@
-# pixelMatic
+# LeasePlan QA Project
 
 # How to run -
 
